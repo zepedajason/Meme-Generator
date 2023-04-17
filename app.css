@@ -1,0 +1,93 @@
+body {
+  background-color: aliceblue;
+}
+.form {
+    background-color: lightslategray;
+    text-align: center;
+    padding: 1rem;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  color: white;
+  font-weight: 100;
+}
+
+p {
+  font-family: sans-serif;
+  color: white;
+}
+
+#submit {
+  background-color: aliceblue;
+  height: 25px;
+  width: 100px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#logoform  {
+  font-family: sans-serif;
+}
+
+.meme {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: 1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+.remove-button {
+  height: 25px;
+  width: 60px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+}
+
+.remove-button:hover  {
+  background-color: rgba(255, 0, 0, 0.349);
+}
+
+.remove-button:active {
+  background-color: rgba(255, 0, 0, 0.349) ;
+  transform: translateY(4px);
+}
+
+.bottom {
+    position: absolute;
+    bottom: 8px;
+    left: 1rem;
+    right: 1rem;
+    color: white;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    font-size: 2rem;
+    font-family: Impact, 
+    Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+  }
+
+.top {
+    position: absolute;
+    top: 8px;
+    left: 1rem;
+    right: 1rem;
+    color: white;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+  }
+
+  
+
