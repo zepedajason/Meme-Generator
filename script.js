@@ -12,10 +12,11 @@ const bottomText = document.querySelector('input[name="bottom-text"]');
 const results = document.querySelector('#meme-container');
 
 function validateForm() {
-    if (imageURL.value === "" || topText.value === "" || bottomText.value === "") {
-        alert ("Form must be filled out completely");
-        return false;
+    if (imageURL.value === "") {
+        alert ("Form must include Image URL");
+        throw new Error ("Form must be filled out properly");
     }
+    window.stop();
 }
 
 form.addEventListener('submit', function(e) {
